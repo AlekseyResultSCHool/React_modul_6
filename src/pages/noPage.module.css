@@ -1,0 +1,35 @@
+:root {
+    --text-shadow-color: rgba(255, 255, 255, 0.5);
+    --link-background: #DAD2CA;
+    --text-color: #444;
+    --circle-background: #8FD4C1;
+    --border-color: #ffffff;
+}
+
+body {
+    padding: 30px;
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+    counter-reset: li; 
+    list-style: none; 
+    font: 20px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 var(--text-shadow-color);
+}
+
+.header {
+    text-align: center;
+    right: 120px;
+    font-size: 35px;
+}
+
+.buttonBack {
+    width: 150px;
+    height: 28px;
+    font-size: 17px;
+    margin: 15px;
+    margin-left: 530px;
+}
